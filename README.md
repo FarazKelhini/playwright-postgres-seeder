@@ -64,7 +64,7 @@ test('example test', async ({ page, dbSeeder }) => {
 
 ### Advanced Usage: Custom Fixture
 
-For more control, use the exposed `createSeederFixture`, `seedDatabase`, and `cleanDatabase` functions to build your own fixture. This is useful for scenarios like mid-test re-seeding or exposing manual seed/clean methods.
+For more control, you can build your own fixture. This is useful for scenarios like mid-test re-seeding.
 
 Here's a complete example:
 
@@ -146,4 +146,5 @@ interface SeederOptions {
 ## License
 
 MIT
+
 
